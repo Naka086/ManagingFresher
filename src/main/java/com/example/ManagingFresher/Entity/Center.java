@@ -6,14 +6,14 @@ import jakarta.persistence.Id;
 
 public class Center {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO);
     private Long id;
     private String name;
     private String location;
     private String phone;
     private String email;
     private String description;
-    public center(String name, String location, String phone, String email, String description) {
+    public Center(Long id, String name, String location, String phone, String email, String description) {
+        this.id = id;
         this.name = name;
         this.location = location;
         this.phone = phone;

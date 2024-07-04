@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.ManagingFresher.Dto.UserDto;
 import com.example.ManagingFresher.Entity.User;
-import Repositories.UserRepository;
+import com.example.ManagingFresher.Repositories.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {

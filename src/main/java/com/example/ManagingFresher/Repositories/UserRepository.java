@@ -1,4 +1,4 @@
-package Repositories;
+package com.example.ManagingFresher.Repositories;
 
 import com.example.ManagingFresher.Entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
