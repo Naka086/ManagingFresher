@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.example.ManagingFresher.dto.UserDto;
-import com.example.ManagingFresher.service.UserService;
+import com.example.ManagingFresher.Dto.UserDto;
+import com.example.ManagingFresher.Service.UserService;
 
 @Controller
 public class UserController {

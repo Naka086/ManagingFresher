@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.example.ManagingFresher.model.User;
+import com.example.ManagingFresher.Entity.User;
 
 public class CustomUserDetail implements UserDetails {
 

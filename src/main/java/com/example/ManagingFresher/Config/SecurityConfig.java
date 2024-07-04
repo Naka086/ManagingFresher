@@ -11,8 +11,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-import com.example.ManagingFresher.service.CustomSuccessHandler;
-import com.example.ManagingFresher.service.CustomUserDetailsService;
+import com.example.ManagingFresher.Service.CustomSuccessHandler;
+import com.example.ManagingFresher.Service.CustomUserDetailsService;
 
 @Configuration
 @EnableWebSecurity
